@@ -1,0 +1,9 @@
+adult: 
+  path: "../data/adult/adult_data.csv"
+  binary_cols: ["sex"]
+  hierarchical_continuous_cols: ["age", "hours-per-week"]
+  non_hierarchical_cols: ["workclass", "marital-status", "occupation", "relationship", "race", "native-country"]
+  cols_to_drop: ["fnlwgt", "education", "capital-gain", "capital-loss"]
+
+mnist:
+  path: "../data/mnist/mnist_data.csv"
