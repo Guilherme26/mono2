@@ -3,7 +3,48 @@ adult:
   binary_cols: ["sex"]
   hierarchical_continuous_cols: ["age", "hours-per-week"]
   non_hierarchical_cols: ["workclass", "marital-status", "occupation", "relationship", "race", "native-country"]
-  cols_to_drop: ["fnlwgt", "education", "capital-gain", "capital-loss"]
+
+bank_marketing:
+    path: "../data/bank-marketing/bank_data.csv"
+    binary_cols: ["default", "loan", "housing"]
+    hierarchical_continuous_cols: ["age", "balance", "day", "duration", "campaign", "previous"]
+    non_hierarchical_cols: ["job", "marital", "contact"]
+
+breast_cancer:
+    path: "../data/breast-cancer/breast_cancer_data.csv"
+    binary_cols: []
+    hierarchical_continuous_cols: []
+    non_hierarchical_cols: []
+
+heart_disease:
+    path: "../data/heart-disease/heart_disease_data.csv"
+    binary_cols: []
+    hierarchical_continuous_cols: ["age", "trestbps", "chol", "thalach", "oldpeak"]
+    non_hierarchical_cols: ["chest-pain", "thal"]
+
+iris:
+    path: "../data/heart-disease/iris_data.csv"
+    binary_cols: []
+    hierarchical_continuous_cols: ["sepal-length", "sepal-width", "petal-length", "petal-width"]
+    non_hierarchical_cols: []
 
 mnist:
   path: "../data/mnist/mnist_data.csv"
+
+wine_quality:
+    path: "../data/wine-quality/wine_quality_data.csv"
+    binary_cols: []
+    hierarchical_continuous_cols: [
+        "fixed acidity",
+        "volatile acidity",
+        "citric acid",
+        "residual sugar",
+        "chlorides",
+        "free sulfur dioxide",
+        "total sulfur dioxide",
+        "density",
+        "pH",
+        "sulphates",
+        "alcohol"
+    ]
+    non_hierarchical_cols: []
