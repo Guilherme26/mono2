@@ -12,28 +12,28 @@ bank_marketing:
 
 breast_cancer:
     path: "../data/breast-cancer/breast_cancer_data.csv"
-    binary_cols: []
-    hierarchical_continuous_cols: []
-    non_hierarchical_cols: []
+    binary_cols:
+    hierarchical_continuous_cols:
+    non_hierarchical_cols:
 
 heart_disease:
     path: "../data/heart-disease/heart_disease_data.csv"
-    binary_cols: []
+    binary_cols:
     hierarchical_continuous_cols: ["age", "trestbps", "chol", "thalach", "oldpeak"]
     non_hierarchical_cols: ["chest-pain", "thal"]
 
 iris:
-    path: "../data/heart-disease/iris_data.csv"
-    binary_cols: []
+    path: "../data/iris/iris_data.csv"
+    binary_cols:
     hierarchical_continuous_cols: ["sepal-length", "sepal-width", "petal-length", "petal-width"]
-    non_hierarchical_cols: []
+    non_hierarchical_cols:
 
 mnist:
   path: "../data/mnist/mnist_data.csv"
 
 wine_quality:
     path: "../data/wine-quality/wine_quality_data.csv"
-    binary_cols: []
+    binary_cols:
     hierarchical_continuous_cols: [
         "fixed acidity",
         "volatile acidity",
@@ -47,4 +47,4 @@ wine_quality:
         "sulphates",
         "alcohol"
     ]
-    non_hierarchical_cols: []
+    non_hierarchical_cols:
