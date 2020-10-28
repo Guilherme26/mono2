@@ -12,3 +12,5 @@ QIF Code:
 
 SHAP Code:
 - Currently I am using the [SHAP Implementation](https://github.com/slundberg/shap) proposed by [Scott Lundberg](https://github.com/slundberg)
+
+A greater explanation of this work, as well as its conclusions, can be found in the [report file](https://github.com/guilherme26/final_report.pdf).
